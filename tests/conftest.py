@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as chrome_options
 import requests
-
+x==1
 @pytest.fixture
 def get_chrome_options():
     options = chrome_options()
